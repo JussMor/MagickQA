@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>&lt;my-element> Demo</title>
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="../magick-qa.js"></script>
+    <style>
+      body {
+        background-color: #808080; /* Medium gray base */
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      section {
+        padding: 20px;
+        margin: 10px;
+        border-radius: 8px;
+        color: white;
+      }
+
+      .dark-gray {
+        background-color: #505050; /* Dark gray */
+        height: 550px;
+      }
+
+      .medium-dark-gray {
+        background-color: #606060; /* Medium dark gray */
+        height: 550px;
+      }
+
+      .medium-gray {
+        background-color: #707070; /* Medium gray */
+        height: 550px;
+      }
+
+      .light-gray {
+        background-color: #a0a0a0; /* Light gray */
+        height: 550px;
+        color: black; /* Dark text for better contrast */
+      }
+
+      .very-light-gray {
+        background-color: #d0d0d0; /* Very light gray */
+        height: 550px;
+        color: black; /* Dark text for better contrast */
+      }
+    </style>
+  </head>
+  <body>
+    <section class="dark-gray">
+      <h2>Dark Gray Section</h2>
+      <p>This is the dark gray section.</p>
+    </section>
+
+    <section class="medium-dark-gray">
+      <h2>Medium Dark Gray Section</h2>
+      <p>This is the medium dark gray section.</p>
+    </section>
+
+    <section class="medium-gray">
+      <h2>Medium Gray Section</h2>
+      <p>This is the medium gray section.</p>
+    </section>
+
+    <section class="light-gray">
+      <h2>Light Gray Section</h2>
+      <p>This is the light gray section.</p>
+    </section>
+
+    <section class="very-light-gray">
+      <h2>Very Light Gray Section</h2>
+      <p>This is the very light gray section.</p>
+    </section>
+    <magick-qa> </magick-qa>
+  </body>
+</html>
